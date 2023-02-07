@@ -10,11 +10,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  background: #000;
+  color: #fff;
 }
 
 a {
-  color: #149ddd;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -42,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #fff;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -51,7 +52,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #000;
   line-height: 0;
 }
 
@@ -86,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #fff;
 }
 
 #header .profile h1 {
@@ -121,8 +122,8 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+  background: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -189,7 +190,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #fff;
 }
 
 /* Mobile Navigation */
@@ -202,8 +203,8 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -268,7 +269,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #fff;
 }
 
 @media (min-width: 1024px) {
@@ -312,7 +313,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #fff;
 }
 
 .section-title h2::after {
@@ -321,7 +322,6 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
   bottom: 0;
   left: 0;
 }
@@ -336,7 +336,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #fff;
 }
 
 .about .content ul {
@@ -461,13 +461,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #fff;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #fff;
   position: relative;
 }
 
@@ -477,13 +477,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -589,17 +588,18 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #000;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #fff;
+  color: #000;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #fff;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -908,8 +908,9 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #000;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border:1px solid #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -972,6 +973,7 @@ section {
 
 .contact .php-email-form label {
   padding-bottom: 8px;
+  color: #fff;
 }
 
 .contact .php-email-form input,
@@ -979,6 +981,9 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
 }
 
 .contact .php-email-form input {
@@ -990,7 +995,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -999,7 +1004,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #fff;
+  color: #000;
 }
 
 @-webkit-keyframes animate-loading {
